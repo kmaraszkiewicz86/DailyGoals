@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="600" viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+	<!-- Tło -->
+	<rect width="400" height="600" fill="#E0E8F0"/>
+
+	<!-- Aureola -->
+	<circle cx="200" cy="180" r="80" fill="gold" opacity="0.5"/>
+
+	<!-- Matka Boża -->
+	<circle cx="200" cy="200" r="60" fill="#F5E1DA"/>
+	<rect x="170" y="260" width="60" height="120" fill="#87A9C0" rx="30"/>
+
+	<!-- Różaniec -->
+	<path d="M 140 320 Q 180 400, 200 320 T 260 320" fill="none" stroke="#A67C52" stroke-width="6" stroke-dasharray="6 8"/>
+
+	<!-- Krzyżyk -->
+	<line x1="200" y1="360" x2="200" y2="380" stroke="#A67C52" stroke-width="4"/>
+	<line x1="190" y1="370" x2="210" y2="370" stroke="#A67C52" stroke-width="4"/>
+
+	<!-- Dodatkowa grafika (symbol gołębia) -->
+	<path d="M150 500 Q200 450, 250 500 T350 550" fill="none" stroke="#3B3B3B" stroke-width="4"/>
+	<circle cx="200" cy="500" r="10" fill="#3B3B3B"/>
+	<path d="M180 500 Q200 480, 220 500" fill="none" stroke="#3B3B3B" stroke-width="3"/>
+</svg>
